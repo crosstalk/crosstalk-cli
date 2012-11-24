@@ -1,17 +1,30 @@
 {
   "name" : "crosstalk-cli",
-  "description" : "Crosstalk Client Command Line Interface (CLI)",
   "version" : "0.0.0",
-  "author" : "Tristan Slominski <tristan.slominski@gmail.com>",
+  "description" : "Crosstalk Client Command Line Interface (CLI)",
   "bin" : "./bin/crosstalk",
-  "dependencies" : {
-    "async" : "0.1.22",
-    "crosstalk-api-client" : "0.0.0",
-    "flatiron" : "0.2.5",
-    "semver" : "1.0.14"
-  },
+  "main": "index.js",
   "scripts" : {
     "start" : "node index.js"
   },
-  "private" : true
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:crosstalk/crosstalk-cli.git"
+  },
+  "keywords": [
+    "crosstalk",
+    "command-line",
+    "interface"
+  ],  
+  "dependencies" : {
+    "async" : "0.1.22",
+    "crosstalk-api-client" : "0.0.1",
+    "flatiron" : "0.2.5",
+    "semver" : "1.0.14"
+  },
+  "author" : "Crosstalk Systems Inc. <developers@crxtalk.com>",
+  "maintainers": [
+    "Tristan Slominski <tristan.slominski@gmail.com>"
+  ],
+  "license": "MIT"
 }
