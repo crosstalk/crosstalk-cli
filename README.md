@@ -26,6 +26,9 @@ Aside from the above consideration, your passwords are being securely one-way ha
 
 ## Usage
 
+    cd crosstalk-cli
+    ./bin/crosstalk --help
+
     Crosstalk CLI
     Valid commands are:
 
