@@ -5,7 +5,7 @@ crosstalk-cli
 
 ## Security Notice
 
-While Crosstalk is in the current _alpha_ development stage, it's usage is being heavily logged for debugging purposes. If you create an account, please **DO NOT** provide a password that you cannot afford me to see accidentally if parsing logs and such. 
+While Crosstalk is in the current _alpha_ development stage, it's messages are being heavily logged for debugging purposes. If you create an account, please **DO NOT** provide a password that you cannot afford to make known to me.
 
 Naturally, this will not be the case as Crosstalk matures. 
 
