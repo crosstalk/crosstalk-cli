@@ -1,0 +1,8 @@
+{
+  "api": {
+    "remoteUri": "https://api.worker.crxtalk.com"
+  },
+  "send": {
+    "remoteUri": "https://send.worker.crxtalk.com"
+  }
+}

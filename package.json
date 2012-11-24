@@ -1,0 +1,17 @@
+{
+  "name" : "crosstalk-cli",
+  "description" : "Crosstalk Client Command Line Interface (CLI)",
+  "version" : "0.0.0",
+  "author" : "Tristan Slominski <tristan.slominski@gmail.com>",
+  "bin" : "./bin/crosstalk",
+  "dependencies" : {
+    "async" : "0.1.22",
+    "crosstalk-api-client" : "0.0.0",
+    "flatiron" : "0.2.5",
+    "semver" : "1.0.14"
+  },
+  "scripts" : {
+    "start" : "node index.js"
+  },
+  "private" : true
+}
