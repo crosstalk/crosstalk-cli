@@ -29,3 +29,7 @@ crosstalk-cli
     crosstalk worker *
 
 The `*` indicates nested commands. Typing `crosstalk account` or `crosstalk worker` will display help for commands. Furthermore, typing any command with `--help` flag, will display help information for that command.
+
+## Sessions
+
+After you login using `crosstalk login [ACCOUNT_NAME]` the Crosstalk session token will be saved in your configuration file `config/config.json` under field `crosstalkToken`. When you logout via `crosstalk logout`, the token will be deleted.
