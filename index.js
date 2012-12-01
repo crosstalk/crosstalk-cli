@@ -21,6 +21,7 @@ app.use( flatiron.plugins.cli, {
     'Valid commands are:',
     '',
     'crosstalk signup',
+    'crosstalk activate',
     'crosstalk account *',
     'crosstalk login [ACCOUNT_NAME]',
     'crosstalk logout',
@@ -32,6 +33,7 @@ app.use( flatiron.plugins.cli, {
 
 }); // app.use flatiron.plugins.cli
 
+app.alias( 'activate', { resource : 'account', command : 'activate' } );
 app.alias( 'signup', { resource : 'account', command : 'create' } );
 
 app.api = {};

@@ -33,6 +33,7 @@ Aside from the above consideration, your passwords are being securely one-way ha
     Valid commands are:
 
     crosstalk signup
+    crosstalk activate
     crosstalk account *
     crosstalk login [ACCOUNT_NAME]
     crosstalk logout
