@@ -13,15 +13,6 @@ Aside from the above consideration, your passwords are being securely one-way ha
 
 ## Installation
 
-### Current
-
-    git clone git@github.com:crosstalk/crosstalk-cli.git
-    cd crosstalk-cli
-    npm link crosstalk-api-client
-    npm link
-
-### Future (pending npm release)
-
     npm install crosstalk-cli
 
 ## Usage
