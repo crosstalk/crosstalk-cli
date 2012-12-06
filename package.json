@@ -18,7 +18,7 @@
   ],
   "dependencies": {
     "async": "0.1.22",
-    "crosstalk-api-client": "0.0.1",
+    "crosstalk-api-client": "0.1.1",
     "flatiron": "0.2.5",
     "semver": "1.0.14"
   },
