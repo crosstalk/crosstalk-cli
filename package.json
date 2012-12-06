@@ -1,6 +1,6 @@
 {
   "name": "crosstalk-cli",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Crosstalk Client Command Line Interface (CLI)",
   "bin": "./bin/crosstalk",
   "main": "index.js",
