@@ -57,6 +57,8 @@ The `*` indicates nested commands. Typing `crosstalk account` or `crosstalk work
     
 ## Activation
 
+While Crosstalk is in alpha preview, new accounts will need to be activated once you receive an activation token.
+
     ~$ crosstalk activate
     help:    You can also provide ACCOUNT_NAME as the first param.
     help:    crosstalk account activate [ACCOUNT_NAME] [ACTIVATION_TOKEN]
