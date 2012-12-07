@@ -13,12 +13,11 @@ Aside from the above consideration, your passwords are being securely one-way ha
 
 ## Installation
 
-    npm install crosstalk-cli
+    npm install -g crosstalk-cli
 
 ## Usage
 
-    cd crosstalk-cli
-    ./bin/crosstalk --help
+    ~$ crosstalk --help
 
     Crosstalk CLI
     Valid commands are:
