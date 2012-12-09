@@ -2,6 +2,7 @@
   "name": "crosstalk-cli",
   "version": "0.1.10",
   "description": "Crosstalk Client Command Line Interface (CLI)",
+  "preferGlobal": true,
   "bin": {
     "crosstalk": "./bin/crosstalk"
   },
@@ -27,6 +28,9 @@
   "author": "Crosstalk Systems Inc. <developers@crxtalk.com>",
   "maintainers": [
     "Tristan Slominski <tristan.slominski@gmail.com>"
+  ],
+  "contributors": [
+    "Jacob Williams <gospelbass@gmail.com>"
   ],
   "license": "MIT"
 }
