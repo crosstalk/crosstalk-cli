@@ -75,4 +75,4 @@ While Crosstalk is in alpha preview, new accounts will need to be activated once
     
 ## Sessions
 
-After you login using `crosstalk login [ACCOUNT_NAME]` the Crosstalk session token will be saved in your configuration file `config/config.json` under field `crosstalkToken`. When you logout via `crosstalk logout`, the token will be deleted.
+After you login using `crosstalk login [ACCOUNT_NAME]` the Crosstalk session token will be saved in your configuration file specified by `$CROSSTALK_CONFIG` (if defined), otherwise `~/.crosstalk.config`, under field `crosstalkToken`. When you logout via `crosstalk logout`, the token will be deleted.
