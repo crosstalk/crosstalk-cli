@@ -11,9 +11,10 @@ var crosstalkApiClient = require( 'crosstalk-api-client' ),
 
 app.version = require( path.join( __dirname, 'package.json' ) ).version;
 
-app.config.file( { file : path.join( __dirname, 'config', 'config.json' ) } );
-app.configFilePath = require.resolve( 
-   path.join( __dirname, "config", "config.json" ) );
+app.config.file( 'global', { file : path.join( __dirname, 'config', 'config.json' ) } );
+
+app.configFilePath = process.env.CROSSTALK_CONFIG || path.join( process.env.HOME, '.crosstalk.config');
+app.config.file( 'user', { file : app.configFilePath } );
 
 app.use( flatiron.plugins.cli, {
 
